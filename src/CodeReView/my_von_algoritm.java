@@ -1,4 +1,4 @@
-package Semminars;
+package CodeReView;
 
 public class my_von_algoritm {
     public static void main (String[] args){
@@ -10,11 +10,11 @@ public class my_von_algoritm {
         int jEnd = 6;
         int finishPoint = arr[iEnd][jEnd] = 1;
         printArr(arr);
-        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
 
         checkArr(arr, startPoint, finishPoint);
         printArr(arr);
-        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ ");
+        System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
 
         findWay(arr, startPoint, iEnd,jEnd);
         printArr(arr);

@@ -1,4 +1,4 @@
-package Semminars;
+package CodeReView;
 
 import java.util.Scanner;
 
